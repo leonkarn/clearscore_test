@@ -54,5 +54,25 @@ for f in reports:
         if date > user_credit[account_id][0]:
             user_credit[account_id] = (date, score)
 
-print (user_credit)
+latest_credits = []
+
+for user in user_credit:
+    latest_credits.append(user_credit[user][1])
+
+print ("these are the latest credits", latest_credits)
+maximum_credit = max(latest_credits)
+ranges = {}
+for i in range(0, maximum_credit,50):
+    ranges[str(i)+"-"+str(i+50)] = 0
+
+
+for credit_score in latest_credits:
+
+    for item in ranges:
+        low_range = int(item.split("-")[0])
+        high_range = int(item.split("-")[1])
+        if credit_score>=low_range and credit_score< high_range:
+            ranges[item] += 1
+            break
+print (ranges)
 
