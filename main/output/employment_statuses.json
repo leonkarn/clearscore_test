@@ -1,0 +1,9 @@
+{
+    "FT_EMPLOYED": 42,
+    "null": 4,
+    "SELF_EMPLOYED": 6,
+    "UNEMPLOYED": 3,
+    "STUDENT": 1,
+    "PT_EMPLOYED": 2,
+    "WORK_AT_HOME": 1
+}

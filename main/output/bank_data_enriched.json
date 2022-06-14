@@ -1,0 +1,375 @@
+{
+    "309300": {
+        "uuid": "4e161721-d29f-4e2c-83f1-24d914e4d3b1",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK"
+    },
+    "499000": {
+        "uuid": "d21f8721-a394-469d-beaa-a410a4a1874a",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "575500": {
+        "uuid": "3ed68888-5195-4afc-b8b5-5f099bfd39b8",
+        "employment_status": null,
+        "bank_name": null
+    },
+    "135900": {
+        "uuid": "e7c20761-8cb4-47f7-80be-34e3f94c569f",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "2",
+        "balance": "156256"
+    },
+    "821600": {
+        "uuid": "857fe2ba-2bc1-46cf-bb4d-2f51415e270d",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "630900": {
+        "uuid": "3de02e8b-c922-4aae-8740-a4f893a0d2c5",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK"
+    },
+    "31300": {
+        "uuid": "84b111a6-2747-441e-9db9-2d695bea8bab",
+        "employment_status": "SELF_EMPLOYED",
+        "bank_name": "NEDBANK",
+        "active_bank_accounts": "1",
+        "balance": "6723"
+    },
+    "553800": {
+        "uuid": "94b9c02e-1c09-479d-abfd-fad446dfdb60",
+        "employment_status": "SELF_EMPLOYED",
+        "bank_name": "OTHER"
+    },
+    "844300": {
+        "uuid": "6d36aa63-e1c2-4a1e-bb7d-7c7acd8f9a36",
+        "employment_status": "SELF_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "3",
+        "balance": "156642"
+    },
+    "938200": {
+        "uuid": "ab5a2fe6-f2c9-42a2-91eb-e20f2ca8e789",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "772000": {
+        "uuid": "bf8364fc-5cd1-4a0f-9dad-26e45b5ab6a7",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK"
+    },
+    "319000": {
+        "uuid": "a5e12dd1-44a8-4da2-996e-284967eca57d",
+        "employment_status": "SELF_EMPLOYED",
+        "bank_name": "CAPITEC"
+    },
+    "98800": {
+        "uuid": "bfcc1755-060b-49f0-8216-855b87182dc4",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "NEDBANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "335700": {
+        "uuid": "4d14f02f-836e-4fad-9889-cf0eb67e7709",
+        "employment_status": "SELF_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "464600": {
+        "uuid": "02fb16d1-1937-4e4e-b01c-624f0930f49f",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "418300": {
+        "uuid": "73ff65a0-e0d0-444b-8246-2331b2d51d5d",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "1",
+        "balance": "12120"
+    },
+    "373500": {
+        "uuid": "3da8c835-1ee2-41df-8d92-60c8f638ea5a",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "703100": {
+        "uuid": "8915b870-4f5b-4df8-80eb-ae2e25853837",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "3",
+        "balance": "1162264"
+    },
+    "736500": {
+        "uuid": "e272d78d-4964-4157-b9f3-95f11796c77e",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "1",
+        "balance": "6736"
+    },
+    "404100": {
+        "uuid": "b4bf1fe4-830e-4b61-ac24-95c353f76bb2",
+        "employment_status": "UNEMPLOYED",
+        "bank_name": "CAPITEC"
+    },
+    "293200": {
+        "uuid": "77c58637-f1f4-4d0f-9934-e4d3e0a07ed3",
+        "employment_status": null,
+        "bank_name": null
+    },
+    "193700": {
+        "uuid": "0110c686-c6a0-4250-8dc5-832256a24f3d",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "1",
+        "balance": "28464"
+    },
+    "740400": {
+        "uuid": "eccf71a6-40ac-4a4b-841b-67c4752f0696",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "915500": {
+        "uuid": "e00c908a-d852-40f0-9bd1-a28151f9be66",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC"
+    },
+    "750200": {
+        "uuid": "d7188482-6047-4b06-8b4a-df450ef6193e",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "73300": {
+        "uuid": "5bf27533-f3c0-40d5-9102-43b50483556b",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "NEDBANK"
+    },
+    "337200": {
+        "uuid": "0f331b0b-f1a2-4e5d-8284-33ca9bf41254",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "1",
+        "balance": "4059"
+    },
+    "154600": {
+        "uuid": "979dfe0c-5374-48ee-80eb-7c4ef3143d78",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "3",
+        "balance": "984212"
+    },
+    "253700": {
+        "uuid": "04bb70b2-65d8-4b37-af87-507d58025153",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "646100": {
+        "uuid": "cc005e8d-00cd-45c8-8a48-5fd5913341b4",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC"
+    },
+    "410000": {
+        "uuid": "e80aa250-a8af-4436-b0ec-27d1a1a1a11e",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA"
+    },
+    "681000": {
+        "uuid": "3dc87c55-fce3-4a36-b3fd-f96d79710cca",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "NEDBANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "576200": {
+        "uuid": "405e0215-a0db-4425-8f6c-2df5a0a003df",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "2",
+        "balance": "92562"
+    },
+    "847000": {
+        "uuid": "4db76b39-e949-472b-a653-dbd80ffc0eac",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK",
+        "active_bank_accounts": "1",
+        "balance": "0"
+    },
+    "769000": {
+        "uuid": "c989b2d7-56e2-4a8b-ad88-521885e4b6c8",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "2",
+        "balance": "20589"
+    },
+    "136100": {
+        "uuid": "fd4e1337-115e-40a3-8648-1d47acd2fe91",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "467000": {
+        "uuid": "7012e968-f7ea-4dbe-9a41-ffd3f580743c",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK"
+    },
+    "387300": {
+        "uuid": "f238cb0d-86a0-4749-b791-9a3dbc292980",
+        "employment_status": "STUDENT",
+        "bank_name": "NEDBANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "381700": {
+        "uuid": "336b9f63-aa33-4a4c-886e-3f7211ae9137",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "350700": {
+        "uuid": "b7890398-0a94-489d-b3db-3f9fb0b205e1",
+        "employment_status": "PT_EMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "719600": {
+        "uuid": "705eff31-d65d-4a84-94f3-e3dd5155c48e",
+        "employment_status": null,
+        "bank_name": null
+    },
+    "750600": {
+        "uuid": "70d3fa2d-2776-456d-b7c0-86d6f5cfd732",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA"
+    },
+    "891300": {
+        "uuid": "ebec598b-00b5-4fad-87c8-092a5388b1c7",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "NEDBANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "213200": {
+        "uuid": "a1e1e160-7de6-4e1a-b428-79ea2f765d57",
+        "employment_status": "UNEMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "1",
+        "balance": "1486"
+    },
+    "126700": {
+        "uuid": "db5217c0-a1c2-4b71-8080-106a2fbd2d44",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "1",
+        "balance": "3342"
+    },
+    "500700": {
+        "uuid": "086abd29-f9e3-4bfd-b7de-4a5795f5a4b8",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "2",
+        "balance": "27659"
+    },
+    "792600": {
+        "uuid": "1c609037-24c4-4d16-b0e6-db030039234d",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "1",
+        "balance": "639"
+    },
+    "185800": {
+        "uuid": "b80e7284-adcb-4442-93ed-66d2e9e74431",
+        "employment_status": "PT_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "351300": {
+        "uuid": "1bc25bc6-9a63-4ea7-ab83-fb764399da7b",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "0",
+        "balance": "0"
+    },
+    "479300": {
+        "uuid": "9e2ddc56-d2d8-4af1-a6b2-e1552dad7c9a",
+        "employment_status": "SELF_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK"
+    },
+    "426700": {
+        "uuid": "861e51b8-41db-4b5c-ac7d-8f4d39b950b2",
+        "employment_status": "WORK_AT_HOME",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "2",
+        "balance": "1150144"
+    },
+    "594200": {
+        "uuid": "59ff3dc6-a524-4d4e-87fc-b98604a59b94",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK"
+    },
+    "495200": {
+        "uuid": "6f5d9bbd-b744-49bf-9e6d-76375e9b7d2c",
+        "employment_status": "UNEMPLOYED",
+        "bank_name": "FIRST_NATIONAL_BANK",
+        "active_bank_accounts": "1",
+        "balance": "12263"
+    },
+    "655300": {
+        "uuid": "8a7cd396-4de6-4ca1-af38-4fcdc731a7e4",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "ABSA",
+        "active_bank_accounts": "1",
+        "balance": "17820"
+    },
+    "918200": {
+        "uuid": "5df5a22d-bfa0-4eb7-924e-4e8a1e80c999",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC"
+    },
+    "536000": {
+        "uuid": "f6ec5d42-0879-4ff5-9cb0-936b76b35379",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "CAPITEC",
+        "active_bank_accounts": "1",
+        "balance": "11461"
+    },
+    "957300": {
+        "uuid": "4a8dcc6f-2ccf-4275-94b8-33b09ab05588",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK"
+    },
+    "160400": {
+        "uuid": "94653263-3ba4-4bdb-bc9a-8e9159dac322",
+        "employment_status": "FT_EMPLOYED",
+        "bank_name": "STANDARD_BANK",
+        "active_bank_accounts": "2",
+        "balance": "666490"
+    },
+    "943000": {
+        "uuid": "9e2dd9e0-ec9e-4739-8790-d435ab1306cc",
+        "employment_status": null,
+        "bank_name": null
+    }
+}
