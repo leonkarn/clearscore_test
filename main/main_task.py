@@ -13,7 +13,6 @@ accounts = glob.glob(accounts_path + r'/*.json', recursive=True)
 
 # 1) Average credit score
 def get_mean_score(reports):
-    # credit_score_av = 0
     credit_scores = []
     for f in reports:
         x = open(f)
@@ -80,7 +79,6 @@ def get_enriched_bank_data(accounts, reports):
                 "Total_outstanding_balance_on_Bank_active_accounts"]
 
     return bank_data_enriched
-
 # 1
 df = pd.DataFrame.from_dict([get_mean_score(reports)])
 df.to_csv("output/average_mean.csv", index=False, header=True)
