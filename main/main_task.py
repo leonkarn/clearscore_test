@@ -1,8 +1,9 @@
 import glob
-import os
 import json
 import numpy as np
 import datetime
+import pandas as pd
+from utils import latest_scores_with_date, create_range, get_latest_scores
 
 reports_path = r"./bulk-reports/reports"
 accounts_path = r"./bulk-reports/accounts"
@@ -28,48 +29,16 @@ def get_employment_status_count(accounts):
     for f in accounts:
         x = open(f)
         data = json.load(x)
-        x = data["account"]["user"].get("employmentStatus")
-        if x in employment_statutes:
-            employment_statutes[x] += 1
+        try:
+            status = data["account"]["user"]["employmentStatus"]
+        except KeyError:
+            status = "UNKNOWN"
+        if status in employment_statutes:
+            employment_statutes[status] += 1
         else:
-            employment_statutes[x] = 1
+            employment_statutes[status] = 1
 
     return employment_statutes
-
-def latest_scores_with_date(reports):
-    user_credit = {}
-    for f in reports:
-        x = open(f)
-        data = json.load(x)
-        score = (int(data["report"]["ScoreBlock"]["Delphi"][0]["Score"]))
-        account_id = data["account-id"]
-        date_pulled = data["pulled-timestamp"]
-        date = datetime.datetime.strptime(date_pulled, "%Y-%m-%dT%H:%M:%S")
-        if account_id not in user_credit:
-            user_credit[account_id] = (date, score)
-        else:
-            if date > user_credit[account_id][0]:
-                user_credit[account_id] = (date, score)
-    return user_credit
-
-
-def get_latest_scores(reports):
-
-    user_credit = latest_scores_with_date(reports)
-    credit_scores_list = []
-    for user in user_credit:
-        credit_scores_list.append(user_credit[user][1])
-    return credit_scores_list
-
-
-def create_range(latest_scores):
-
-    out_range = {}
-    for i in range(0, max(latest_scores), 50):
-        out_range[str(i) + "-" + str(i + 50)] = 0
-
-    return out_range
-
 
 # 3)  number of users in score ranges
 def get_score_ranges(reports):
@@ -113,17 +82,17 @@ def get_enriched_bank_data(accounts, reports):
     return bank_data_enriched
 
 # 1
-with open("output/average.json", "w") as outfile:
-    json.dump(get_mean_score(reports), outfile)
+df = pd.DataFrame.from_dict([get_mean_score(reports)])
+df.to_csv("output/average_mean.csv", index=False, header=True)
 
 # 2
-with open("output/employment_statuses.json", "w") as outfile:
-    json.dump(get_employment_status_count(accounts), outfile, indent=4)
+df = pd.DataFrame.from_dict([get_employment_status_count(accounts)])
+df.to_csv("output/employment_statutes_count.csv", index=True, header=True)
 
 # 3
-with open("output/ranges_count.json", "w") as outfile:
-    json.dump(get_score_ranges(reports), outfile, indent=4)
+df = pd.DataFrame.from_dict([get_score_ranges(reports)])
+df.to_csv("output/ranges_count.csv", index=False, header=True)
 
-4
-with open("output/bank_data_enriched.json", "w") as outfile:
-    json.dump(get_enriched_bank_data(accounts, reports), outfile, indent=4)
+# 4
+df = pd.DataFrame.from_dict(get_enriched_bank_data(accounts, reports), orient='index')
+df.to_csv("output/bank_data_enriched.csv", index=True, header=True)
