@@ -13,6 +13,10 @@ accounts = glob.glob(accounts_path + r'/*.json', recursive=True)
 
 # 1) Average credit score
 def get_mean_score(reports):
+    """
+    get the list of report path as an input. reads all of them and return a dictionary with the average score
+    :param reports: list of paths
+    """
     credit_scores = []
     for f in reports:
         x = open(f)
@@ -24,6 +28,12 @@ def get_mean_score(reports):
 
 # 2)  number of users grouped by their employment status
 def get_employment_status_count(accounts):
+    """
+    gets a list of account file paths and reads them. It counts the employments statutes and returns a dictionnary
+    with the count per each status
+    :param accounts: list of paths for accounts
+    :return:
+    """
     employment_statutes = {}
     for f in accounts:
         x = open(f)
@@ -41,6 +51,12 @@ def get_employment_status_count(accounts):
 
 # 3)  number of users in score ranges
 def get_score_ranges(reports):
+    """
+    it takes the list of report paths as an input and reads them. It returns a dictionnary with the range of credit
+    scores and how many people are in each range.
+    :param reports: list of paths
+    :return:
+    """
     latest_scores = get_latest_scores(reports)
     ranges = create_range(latest_scores)
 
@@ -56,7 +72,13 @@ def get_score_ranges(reports):
 
 # 4) enriched bank data
 def get_enriched_bank_data(accounts, reports):
-
+    """
+    It reads both account and reports and returns a dictionaary with uuid, employment_status,bank_name,
+    active_bank_accounts and balance
+    :param accounts: list of paths
+    :param reports: list of paths
+    :return:
+    """
     bank_data_enriched = {}
     user_credit = latest_scores_with_date(reports)
     for f in accounts:

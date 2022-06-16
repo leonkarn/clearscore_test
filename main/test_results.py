@@ -11,59 +11,58 @@ def reports(tmp_path):
         "pulled-timestamp": "2018-01-05T13:13:13",
         "report-id": "38157329",
         "report": {
-                    "ScoreBlock": {
-                        "Delphi": [
-                            {
-                                "ScoreName": "Delphi New Business G4.1 Banki ",
-                                "Scorecard_Identifier": "402",
-                                "RequestID": "17",
-                                "Score": "535",
-                                "ReasonCode": "D205D209D201D202D204"
-                            }
-                        ]
-                    },
-                    "Summary": {
-                        "Payment_Profiles": {
-                            "CPA": {
-                                "Bank": {
-                                    "Total_number_of__active_non_delinquent_CPA_accounts_opened_L6m": "0",
-                                    "Total_number_of_Bank_Active_accounts_": "0",
-                                    "Total_value_of_Bank_Delinquent_accounts": "6323",
-                                    "Percent_0_Arrears_of_Last_12_Bank_Available_Histories": "0",
-                                    "Total_Credit_Limit_of_Fixed_Installment_Bank_PPS": "0",
-                                    "Total_outstanding_balance_on_Bank_active_accounts": "0",
-                                    "Total_Balance_of_Fixed_Installment_Bank_PPs": "0",
-                                    "Total_Installment_of_Bank_Open_Account_PPs": "0",
-                                    "Number_of_Bank_Fixed_Installment_PPs_Ever": "0",
-                                    "Worst_current_status_on_active_non_delinquent_non_revolving_accounts": "",
-                                    "Number_of_Habitually_Slow_Bank_PPs": "0",
-                                    "Outstanding_Balance_on_delinquent_revolving_CPA_accounts": "0",
-                                    "Percent_0_Arrears_of_Last_24_Bank_Available_Histories": "0",
-                                    "Number_of_Times_3_Arrears_of_Last_6_Bank_Available_Histories": "6",
-                                    "Percent_2_Arrears_of_Last_12_Bank_Available_Histories": "100",
-                                    "Number_of_Bank_PPs_Ever": "1",
-                                    "Number_of_Times_0_Arrears_of_Last_3_Bank_Available_Histories": "0",
-                                    "Number_of_Bank_accounts_opened_4to12_months_ago": "0",
-                                    "Number_of_Times_1_Arrears_of_Last_12_Bank_Available_Histories": "12",
-                                    "Number_of_Times_2_Arrears_of_Last_6_Bank_Available_Histories": "6",
-                                    "Total_Balance_of_Bank_Open_Account_PPs": "0",
-                                    "Number_of_Closed_Revolving_Bank_PPs": "0",
-                                    "Days_since_most_recent_Bank_Delinquent_CPA__account_": "79",
-                                    "Percent_0_Arrears_of_Last_3_Bank_Available_Histories": "0",
-                                    "Number_of_Times_1_Arrears_of_Last_6_Bank_Available_Histories": "6",
-                                    "Percent_3_Arrears_of_Last_6_Bank_Available_Histories": "100",
-                                    "Worst_Arrears_on_Any_Bank_PPs": "W",
-                                    "Capital_Amount_of_Bank_PPs_Opened_in_the_Last_2_Years": "4000",
-                                    "Number_of_Bank_PPs_in_the_Last_5_Years": "1",
-                                    "Worst_status_in_the_last_3_months_for_active_non_delinquent_CPA_accounts_opened_in_the_last_12_months": "",
-                                    "Number_of_Times_0_Arrears_of_Last_12_Bank_Available_Histories": "0",
-                                    "Number_of_Disputed_Bank_PPs": "0"
-                                }
-                            }
-                        },
-                        "user-uuid": "1bc25bc6-9a63-4ea7-ab83-fb764399da7b"
+            "ScoreBlock": {
+                "Delphi": [
+                    {
+                        "ScoreName": "Delphi New Business G4.1 Banki ",
+                        "Scorecard_Identifier": "402",
+                        "RequestID": "17",
+                        "Score": "535",
+                        "ReasonCode": "D205D209D201D202D204"
                     }
-
+                ]
+            },
+            "Summary": {
+                "Payment_Profiles": {
+                    "CPA": {
+                        "Bank": {
+                            "Total_number_of__active_non_delinquent_CPA_accounts_opened_L6m": "0",
+                            "Total_number_of_Bank_Active_accounts_": "0",
+                            "Total_value_of_Bank_Delinquent_accounts": "6323",
+                            "Percent_0_Arrears_of_Last_12_Bank_Available_Histories": "0",
+                            "Total_Credit_Limit_of_Fixed_Installment_Bank_PPS": "0",
+                            "Total_outstanding_balance_on_Bank_active_accounts": "0",
+                            "Total_Balance_of_Fixed_Installment_Bank_PPs": "0",
+                            "Total_Installment_of_Bank_Open_Account_PPs": "0",
+                            "Number_of_Bank_Fixed_Installment_PPs_Ever": "0",
+                            "Worst_current_status_on_active_non_delinquent_non_revolving_accounts": "",
+                            "Number_of_Habitually_Slow_Bank_PPs": "0",
+                            "Outstanding_Balance_on_delinquent_revolving_CPA_accounts": "0",
+                            "Percent_0_Arrears_of_Last_24_Bank_Available_Histories": "0",
+                            "Number_of_Times_3_Arrears_of_Last_6_Bank_Available_Histories": "6",
+                            "Percent_2_Arrears_of_Last_12_Bank_Available_Histories": "100",
+                            "Number_of_Bank_PPs_Ever": "1",
+                            "Number_of_Times_0_Arrears_of_Last_3_Bank_Available_Histories": "0",
+                            "Number_of_Bank_accounts_opened_4to12_months_ago": "0",
+                            "Number_of_Times_1_Arrears_of_Last_12_Bank_Available_Histories": "12",
+                            "Number_of_Times_2_Arrears_of_Last_6_Bank_Available_Histories": "6",
+                            "Total_Balance_of_Bank_Open_Account_PPs": "0",
+                            "Number_of_Closed_Revolving_Bank_PPs": "0",
+                            "Days_since_most_recent_Bank_Delinquent_CPA__account_": "79",
+                            "Percent_0_Arrears_of_Last_3_Bank_Available_Histories": "0",
+                            "Number_of_Times_1_Arrears_of_Last_6_Bank_Available_Histories": "6",
+                            "Percent_3_Arrears_of_Last_6_Bank_Available_Histories": "100",
+                            "Worst_Arrears_on_Any_Bank_PPs": "W",
+                            "Capital_Amount_of_Bank_PPs_Opened_in_the_Last_2_Years": "4000",
+                            "Number_of_Bank_PPs_in_the_Last_5_Years": "1",
+                            "Worst_status_in_the_last_3_months_for_active_non_delinquent_CPA_accounts_opened_in_the_last_12_months": "",
+                            "Number_of_Times_0_Arrears_of_Last_12_Bank_Available_Histories": "0",
+                            "Number_of_Disputed_Bank_PPs": "0"
+                        }
+                    }
+                },
+                "user-uuid": "1bc25bc6-9a63-4ea7-ab83-fb764399da7b"
+            }
 
         }
     }
@@ -200,12 +199,11 @@ def reports(tmp_path):
     with open(tmp_path / "report1.json", "w") as f:
         json.dump(report1, f)
 
-
     with open(tmp_path / "report2.json", "w") as f:
         json.dump(report2, f)
 
-
     return [tmp_path / "report1.json", tmp_path / "report2.json"]
+
 
 @pytest.fixture
 def accounts(tmp_path):
@@ -236,30 +234,30 @@ def accounts(tmp_path):
         "schemaVersion": "CS-1"
     }
     account2 = {
-       "uuid": "1bc25bc6-9a63-4ea7-ab83-fb764399da7b",
-       "marketId": "ZA",
-       "accountId": 351300,
-       "account": {
-          "user": {
-             "bankName": "CAPITEC",
-             "dateOfBirth": "1977-06",
-             "employmentStatus": "FT_EMPLOYED",
-             "salary": {
-                "amount": 19000,
-                "type": "MONTHLY",
-                "currency": "ZAR"
-             },
-             "id": 351300,
-             "idDocuments": [
-                {
-                   "type": "NATIONALID",
-                   "value": "xxx"
-                }
-             ],
-             "residentialStatus": "WITH_PARENTS"
-          }
-       },
-       "schemaVersion": "CS-1"
+        "uuid": "1bc25bc6-9a63-4ea7-ab83-fb764399da7b",
+        "marketId": "ZA",
+        "accountId": 351300,
+        "account": {
+            "user": {
+                "bankName": "CAPITEC",
+                "dateOfBirth": "1977-06",
+                "employmentStatus": "FT_EMPLOYED",
+                "salary": {
+                    "amount": 19000,
+                    "type": "MONTHLY",
+                    "currency": "ZAR"
+                },
+                "id": 351300,
+                "idDocuments": [
+                    {
+                        "type": "NATIONALID",
+                        "value": "xxx"
+                    }
+                ],
+                "residentialStatus": "WITH_PARENTS"
+            }
+        },
+        "schemaVersion": "CS-1"
     }
 
     with open(tmp_path / "account1.json", "w") as f:
@@ -269,6 +267,7 @@ def accounts(tmp_path):
         json.dump(account2, f)
 
     return [tmp_path / "account1.json", tmp_path / "account2.json"]
+
 
 def test_average_score(reports):
     # 535 + 614 / 2
@@ -281,6 +280,7 @@ def test_status(accounts):
     employed = status_count["FT_EMPLOYED"]
 
     assert employed == 2
+
 
 def test_credit_score_range(reports):
     x = get_score_ranges(reports)
