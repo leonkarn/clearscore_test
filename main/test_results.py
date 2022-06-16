@@ -286,3 +286,9 @@ def test_credit_score_range(reports):
     x = get_score_ranges(reports)
     assert x["500-550"] == 1
     assert x["600-650"] == 1
+
+def test_enriched_data(accounts,reports):
+    bank_data_enriched = get_enriched_bank_data(accounts,reports)
+    assert bank_data_enriched[337200]["active_bank_accounts"] == '1'
+    assert bank_data_enriched[337200]["balance"] == '398'
+

@@ -4,6 +4,7 @@ import numpy as np
 import datetime
 import pandas as pd
 from utils import latest_scores_with_date, create_range, get_latest_scores
+import os
 
 reports_path = r"./bulk-reports/reports"
 accounts_path = r"./bulk-reports/accounts"
@@ -102,6 +103,8 @@ def get_enriched_bank_data(accounts, reports):
 
     return bank_data_enriched
 
+if not os.path.exists("output"):
+    os.mkdir("output")
 # 1
 df = pd.DataFrame.from_dict([get_mean_score(reports)])
 df.to_csv("output/average_mean.csv", index=False, header=True)

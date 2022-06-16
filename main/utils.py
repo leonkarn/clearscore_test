@@ -2,6 +2,12 @@ import json
 import datetime
 
 def latest_scores_with_date(reports):
+    """
+    takes as an input a list of paths to report json files and returns a dictionary with the account_id
+    ,the latest credit score and the date
+    :param reports:
+    :return:
+    """
     user_credit = {}
     for f in reports:
         x = open(f)
@@ -19,7 +25,11 @@ def latest_scores_with_date(reports):
 
 
 def get_latest_scores(reports):
-
+    """
+    reads a list of paths for reports and return only the latest credit scores as a list
+    :param reports:
+    :return:
+    """
     user_credit = latest_scores_with_date(reports)
     credit_scores_list = []
     for user in user_credit:
@@ -28,7 +38,11 @@ def get_latest_scores(reports):
 
 
 def create_range(scores):
-
+    """
+    takes a list of scores and return a dictionary with the range with step 50
+    :param scores:
+    :return:
+    """
     out_range = {}
     for i in range(0, max(scores), 50):
         out_range[str(i) + "-" + str(i + 50)] = 0
