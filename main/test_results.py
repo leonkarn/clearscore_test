@@ -1,6 +1,7 @@
 import json
 import pytest as pytest
 from main_task import get_mean_score, get_employment_status_count, get_score_ranges, get_enriched_bank_data
+from utils import get_extracted_scores
 
 @pytest.fixture
 def reports(tmp_path):
@@ -287,8 +288,12 @@ def test_credit_score_range(reports):
     assert x["500-550"] == 1
     assert x["600-650"] == 1
 
+
 def test_enriched_data(accounts,reports):
     bank_data_enriched = get_enriched_bank_data(accounts,reports)
     assert bank_data_enriched[337200]["active_bank_accounts"] == '1'
     assert bank_data_enriched[337200]["balance"] == '398'
 
+def test_scores_extraction(reports):
+    scores = get_extracted_scores(reports)
+    assert sorted(scores) == [535, 614]

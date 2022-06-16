@@ -3,7 +3,7 @@ import json
 import numpy as np
 import datetime
 import pandas as pd
-from utils import latest_scores_with_date, create_range, get_latest_scores
+from utils import latest_scores_with_date, create_range, get_extracted_scores
 import os
 
 reports_path = r"./bulk-reports/reports"
@@ -58,7 +58,7 @@ def get_score_ranges(reports):
     :param reports: list of paths
     :return:
     """
-    latest_scores = get_latest_scores(reports)
+    latest_scores = get_extracted_scores(reports)
     ranges = create_range(latest_scores)
 
     for credit_score in latest_scores:

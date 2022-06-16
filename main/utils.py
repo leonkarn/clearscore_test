@@ -24,7 +24,7 @@ def latest_scores_with_date(reports):
     return user_credit
 
 
-def get_latest_scores(reports):
+def get_extracted_scores(reports):
     """
     reads a list of paths for reports and return only the latest credit scores as a list
     :param reports:
