@@ -114,7 +114,7 @@ def produce_output():
         os.mkdir("output")
     # 1
     df = pd.DataFrame.from_dict([get_mean_score(report_files)])
-    df.to_csv("output/average_mean.csv", index=False, header=True)
+    df.to_csv("output/average_mean.csv", index=True, header=True)
 
     # 2
     df = pd.DataFrame.from_dict([get_employment_status_count(account_files)])
