@@ -118,7 +118,7 @@ def produce_output():
 
     # 2
     df = pd.DataFrame.from_dict([get_employment_status_count(account_files)])
-    df.to_csv("output/employment_statutes_count.csv", index=True, header=True)
+    df.to_csv("output/employment_statutes_count.csv", index=False, header=True)
 
     # 3
     df = pd.DataFrame.from_dict([get_score_ranges(report_files)])
@@ -126,6 +126,8 @@ def produce_output():
 
     # 4
     df = pd.DataFrame.from_dict(get_enriched_bank_data(account_files, report_files), orient='index')
+    df.index = df.index.astype('int')
+    df = df.sort_index()
     df.to_csv("output/bank_data_enriched.csv", index=True, header=True)
 
 
