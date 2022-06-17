@@ -1,6 +1,7 @@
 import json
 import datetime
 
+
 def latest_scores_with_date(reports):
     """
     takes as an input a list of paths to report json files and returns a dictionary with the account_id
